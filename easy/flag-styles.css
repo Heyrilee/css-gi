@@ -1,0 +1,35 @@
+/* stripes styles */
+table {
+  height: 456px;
+  width: 800px;
+}
+table,
+td {
+  border: solid 01px;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background: red;
+}
+tr:nth-child(even) {
+  background: white;
+}
+/* stars styles */
+.stars img {
+  width: 400px;
+  height: 246px;
+  position: absolute;
+  top: 106px;
+  left: 8px;
+}
+/* responsive */
+@media only screen and (max-width: 767px) {
+  table {
+    height: 152px;
+    width: 266px;
+  }
+  .stars img {
+    width: 133px;
+    height: 82px;
+  }
+}

@@ -1,0 +1,66 @@
+/* chessboard styles */
+.chessboard {
+  width: 888px;
+  height: 888px;
+  margin: 0 auto;
+  border: 13px solid rgb(48, 25, 2);
+}
+.black {
+  float: left;
+  background-color: rgb(71, 36, 13);
+  width: 111px;
+  height: 111px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.white {
+  float: left;
+  width: 111px;
+  height: 111px;
+  background-color: rgb(234, 225, 174);
+  display: table-cell;
+  vertical-align: middle;
+}
+/* responsive */
+@media only screen and (max-width: 979px) {
+  .chessboard {
+    width: 640px;
+    height: 640px;
+  }
+  .white {
+    width: 80px;
+    height: 80px;
+  }
+  .black {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .chessboard {
+    width: 440px;
+    height: 440px;
+  }
+  .white {
+    width: 55px;
+    height: 55px;
+  }
+  .black {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .chessboard {
+    width: 304px;
+    height: 304px;
+  }
+  .white {
+    width: 38px;
+    height: 38px;
+  }
+  .black {
+    width: 38px;
+    height: 38px;
+  }
+}
